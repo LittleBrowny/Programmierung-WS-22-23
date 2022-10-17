@@ -17,14 +17,15 @@ public class Primzahlen {
 			return false;
 		}
 
-		//Geht alle Zahlen von 2 Bis zahl/2 durch alle zahlen die Größer sind irrelewand. es gilt: 
-		//i > zahl/2	-->	  zahl/i < 1
+		//Geht alle Zahlen von 2 Bis zahl/2 durch. Alle zahlen die größer als zahl/2 sind irrelewand.
+		//es gilt:		i > zahl/2		-->	  zahl/i < 1
 		for (int i = 2; i <= zahl/2; i++) {
 			if (zahl % i == 0) {	//Checkt auf Teilbarkeit
 				return false;
 			}
 		}
-		//sind alle Möglichhkeiten getestet und return false wurde noch nicht ausgelößt;
+
+		//sind alle Möglichhkeiten getestet und return false wurde noch nicht ausgelößt,
 		//muss zahl eine primzahl sein.
 		return true;
 	}
