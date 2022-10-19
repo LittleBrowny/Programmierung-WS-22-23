@@ -1,4 +1,4 @@
-//[ ] 4.4 Gerade und ungerade Zahlen
+//[x] 4.4 Gerade und ungerade Zahlen
 
 public class CheckNumbers {
 	
@@ -11,7 +11,7 @@ public class CheckNumbers {
 	*/
 	public static boolean checkEven(int number)
 	{
-		return false;//Dieses Return Statement ist zu bearbeiten.
+		return (number%2==0);//Dieses Return Statement ist zu bearbeiten.
 	}
 	
 	/*
@@ -22,7 +22,7 @@ public class CheckNumbers {
 	*/
 	public static boolean checkOdd(int number)
 	{
-		return false;//Dieses Return Statement ist zu bearbeiten.
+		return (number%2!=0);//Dieses Return Statement ist zu bearbeiten.
 	}
 	
 	//In der Main Methode werden verschiedene Testfaelle getestet. Sie koennen sich aber auch eigene ausdenken und testen

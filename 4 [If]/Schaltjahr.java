@@ -1,4 +1,4 @@
-//[ ] 4.6 Schaltjahre
+//[x] 4.6 Schaltjahre
 
 public class Schaltjahr {
 
@@ -22,6 +22,9 @@ public class Schaltjahr {
 	 */
 	public static boolean schaltjahr(int jahr)
 	{
+		if (jahr%4==0 && (jahr%100!=0 || jahr%400==0)) {
+			return true;
+		}
 		return false;
 	}
 	

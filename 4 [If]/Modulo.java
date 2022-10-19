@@ -1,4 +1,4 @@
-//[ ] 4.3 Der Modulo Opperator
+//[x] 4.3 Der Modulo Opperator
 
 public class Modulo {
 	
@@ -8,7 +8,7 @@ public class Modulo {
 	 */
 	public static boolean teilbar(int zahl1, int zahl2)
 	{
-		return false;
+		return (zahl1%zahl2 == 0);
 	}
 	
 	//In dieser Methode kannst du deine Methode testen

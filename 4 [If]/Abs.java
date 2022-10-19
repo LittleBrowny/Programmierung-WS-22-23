@@ -2,11 +2,16 @@
 
 // Betragsfunktion
 // 
-// Implementieren Sie die Betragsfunktion in der Methode "abs". Die Lösung der Betragsfunktion f(x) = |x| ist x, wenn x positiv ist, und -x, wenn x negativ ist. 
+// Implementieren Sie die Betragsfunktion in der Methode "abs".
+// Die Lösung der Betragsfunktion f(x) = |x| ist x, wenn x positiv ist, und -x, wenn x negativ ist.
+
 public class Abs {
 
 	public static int abs(int value) {
-		return 0;
+		if (value < 0) {
+			value *= -1;
+		}
+		return value;
 	}
 
 	public static void main(String[] args) {

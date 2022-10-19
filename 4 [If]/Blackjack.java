@@ -1,4 +1,4 @@
-//[ ] 4.7 Blackjack
+//[x] 4.7 Blackjack
 
 public class Blackjack {
 	
@@ -11,6 +11,12 @@ public class Blackjack {
 	 */
 	public static int blackjack(int val1, int val2) {
 		//zu bearbeiten
+		if (val1 <= 21 && (val1 >= val2 || val2 > 21)) {
+			return val1;
+		}
+		if (val2 <= 21 && (val2 >= val1 || val1 > 21)) {
+			return val2;
+		}
 		return 0;
 	}
 	
