@@ -1,13 +1,24 @@
-//[ ] 3.2 Palindrom
+//[x] 3.2 Palindrom
 
 public class CheckPalindrom {
 	//Aufgabe 1
 	public String reverse(String toReverse) {
-		return null;
+		String output = "";
+		for(int i = toReverse.length()-1; i >= 0; i--) {
+			output += toReverse.charAt(i);
+		}
+		return output;
 	}
 	
 	//Aufgabe 2
 	public boolean palindrome(String palindrome) {
+		String reverse = "";
+		for(int i = palindrome.length()-1; i >= 0; i--) {
+			reverse += palindrome.charAt(i);
+		}
+		if (reverse.toLowerCase().equals(palindrome.toLowerCase())) {
+			return true;
+		}
 		return false;
 	}
 	
