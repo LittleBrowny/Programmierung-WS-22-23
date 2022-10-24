@@ -1,4 +1,4 @@
-// [ ] 3.4 Pyramide
+// [x] 3.4 Pyramide
 
 public class Pyramide {
 	
@@ -19,7 +19,21 @@ public class Pyramide {
 	 * Das Zeichen Zeilenumbruch ist das Folgende: \n
 	 */
 	public static String machePyramide(int n) {
-		return null;
+		String output = "";
+		for (int i = 1; i <= (n/2 + 1); i++) {
+			for (int j = 0; j < (n/2 + 1) - i; j++) {
+				output += " ";
+			}
+
+			for (int j = 0; j < (i*2 -1); j++) {
+				output += "*";
+			}
+
+			if (i + 1 <= (n/2 + 1)) {
+				output  += "\n";
+			}
+		}
+		return output;
 	}
 	
 	/*

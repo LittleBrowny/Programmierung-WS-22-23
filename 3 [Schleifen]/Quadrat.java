@@ -1,4 +1,4 @@
-// [ ] 3.3 Quadrat
+// [x] 3.3 Quadrat
 
 public class Quadrat {
 	/*
@@ -15,7 +15,16 @@ public class Quadrat {
 	 */
 	 
 	public static String macheQuadrat(int kantenlaenge)	{
-		return null;
+		String quadrat = "";
+		for (int i = 0; i < kantenlaenge; i++) {
+			for (int j = 0; j < kantenlaenge; j++) {
+				quadrat += "*";
+			}
+			if (i+1 < kantenlaenge){
+				quadrat += "\n";
+			}
+		}
+		return quadrat;
 	}
 	
 	// Beispielmethode: So sieht die korrekte Loesung fuer Kantenlaenge = 2 aus.

@@ -1,4 +1,4 @@
-// [ ] 3.2 Logarithmus
+// [x] 3.2 Logarithmus
 
 public class Logarithmus {
 	
@@ -22,7 +22,11 @@ public class Logarithmus {
 	 * logarithmus(16) --> 4 (2^4=16)
 	 */
 	public static int logarithmus(int zahl) {
-		return 0;
+		int output = 0;
+		while((int) Math.pow(2,output) != zahl) {
+			output++;
+		}
+		return output;
 	}
 	
 	/*
