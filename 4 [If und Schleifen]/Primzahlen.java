@@ -1,4 +1,4 @@
-//[x] 2.1 Primzahlen
+//[x] 4.1 Primzahlen
 
 public class Primzahlen {
 

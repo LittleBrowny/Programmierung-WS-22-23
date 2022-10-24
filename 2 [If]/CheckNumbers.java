@@ -1,4 +1,4 @@
-//[x] 4.4 Gerade und ungerade Zahlen
+//[x] 2.4 Gerade und ungerade Zahlen
 
 public class CheckNumbers {
 	

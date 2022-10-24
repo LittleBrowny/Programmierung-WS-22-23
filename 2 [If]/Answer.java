@@ -1,4 +1,4 @@
-// [x] 4.1 Antwort auf Alles
+// [x] 2.1 Antwort auf Alles
 
 public class Answer {
 	/*

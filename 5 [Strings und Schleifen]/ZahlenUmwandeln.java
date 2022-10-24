@@ -1,4 +1,4 @@
-//[x] 3.1 Binärsystem
+//[x] 5.1 Binärsystem
 
 public class ZahlenUmwandeln
 {

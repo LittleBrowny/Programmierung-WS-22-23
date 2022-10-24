@@ -1,4 +1,4 @@
-//[x] 4.7 Blackjack
+//[x] 2.7 Blackjack
 
 public class Blackjack {
 	

@@ -1,4 +1,4 @@
-//[x] 4.6 Schaltjahre
+//[x] 2.6 Schaltjahre
 
 public class Schaltjahr {
 

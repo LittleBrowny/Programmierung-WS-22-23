@@ -1,4 +1,4 @@
-//[x] 2.2 Zahlensysteme
+//[x] 4.2 Zahlensysteme
 
 public class Zahlensysteme {
 

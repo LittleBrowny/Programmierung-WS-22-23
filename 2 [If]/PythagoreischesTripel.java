@@ -1,4 +1,4 @@
-//[x] 4.5 Pythagoreisches Tripel
+//[x] 2.5 Pythagoreisches Tripel
 
 public class PythagoreischesTripel {
 	/*

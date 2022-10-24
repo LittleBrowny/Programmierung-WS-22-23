@@ -1,4 +1,4 @@
-//[x] 3.2 Palindrom
+//[x] 5.2 Palindrom
 
 public class CheckPalindrom {
 	//Aufgabe 1

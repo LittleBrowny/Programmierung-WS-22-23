@@ -1,4 +1,4 @@
-//[ ] 4.2 Beratungsfunktion
+//[x] 2.2 Beratungsfunktion
 
 // Betragsfunktion
 // 

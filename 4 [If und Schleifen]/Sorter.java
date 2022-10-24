@@ -1,4 +1,4 @@
-//[x] 2.3 Sortieren
+//[x] 4.3 Sortieren
 
 import java.util.Arrays;
 

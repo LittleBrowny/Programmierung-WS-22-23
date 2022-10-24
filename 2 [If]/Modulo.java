@@ -1,4 +1,4 @@
-//[x] 4.3 Der Modulo Opperator
+//[x] 2.3 Der Modulo Opperator
 
 public class Modulo {
 	
