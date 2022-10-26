@@ -1,4 +1,4 @@
-// [ ] 6.1 Array Verändern
+// [x] 6.1 Array Verändern
 
 import java.util.Arrays;
 
@@ -9,7 +9,7 @@ public class ArrayVeraendern {
 	// ins Array geschrieben werden.
 	public static void change(int[] array, int position, int number) {
 		//Hier beginnt der zu bearbeitende Teil
-
+		array[position] = number;
 		//Hier endet der zu bearbeitende Teil
 	}
 	

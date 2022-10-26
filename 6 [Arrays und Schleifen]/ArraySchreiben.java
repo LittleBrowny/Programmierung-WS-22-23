@@ -1,4 +1,4 @@
-// [ ] 6.4 Array schreiben
+// [x] 6.4 Array schreiben
 
 import java.util.Arrays;
 
@@ -6,8 +6,11 @@ public class ArraySchreiben {
 	// Aufgabe 1
 	public static int[] createArray(int laenge)	{
 		//hier beginnt der zu bearbeitende Bereich
-		
-		return null; 
+		int[] array = new int[laenge];
+		for (int i = 0; i < array.length; i++) {
+			array[i] = i;
+		}
+		return array; 
 		//hier endet der zu bearbeitende Bereich
 	}
 	

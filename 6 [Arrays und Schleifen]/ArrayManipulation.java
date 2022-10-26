@@ -1,4 +1,4 @@
-// [ ] 6.6 Arrays und Schleifen
+// [x] 6.6 Arrays und Schleifen
 
 import java.util.Arrays;
 
@@ -14,7 +14,11 @@ public class ArrayManipulation {
 	 * vertausche({1,2,3,4,5}, 0, 4) --> {5,2,3,4,1}
 	 */
 	public static void vertausche(int[] array, int index1, int index2) {
+		int int1 = array[index1];
+		int int2 = array[index2];
 
+		array[index1] = int2;
+		array[index2] = int1;
 	}
 	
 	/*
@@ -24,7 +28,11 @@ public class ArrayManipulation {
 	 * Es soll wieder nichts zurueckgegeben werden, das uebergebene Array soll stattdessen veraendert werden.
 	 */
 	public static void reverse(int[] array) {
-		
+		int[] array2 = array.clone();
+
+		for (int i = 0; i < array.length; i++) {
+			array[i] = array2[array.length-i-1];
+		}
 	}
 	
 	//In der Main Methode kannst du deine Methoden testen

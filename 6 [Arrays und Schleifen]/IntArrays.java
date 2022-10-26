@@ -1,4 +1,4 @@
-// [ ] 6.5 Int-Arrays
+// [x] 6.5 Int-Arrays
 
 public class IntArrays {
 	
@@ -8,13 +8,19 @@ public class IntArrays {
 	
 	// Aufagbe 1
 	public static double average(int[] array) {
-		return 0;
+		double summe = 0;
+		for (int i : array) {
+			summe += i;
+		}
+		return summe / array.length;
 	}
 	
 	// Aufagbe 2
 	public static double median(int[] array) {
-		return 0;
-
+		if (array.length%2 == 0) {
+			return (double) (array[array.length/2-1] + array[array.length/2])/2;
+		}
+		return array[array.length/2];
 	}
 	
 	//=================================
@@ -25,7 +31,7 @@ public class IntArrays {
 	 * Die Main Methode. Du kannst dir hier verschiedene Testfaelle ausdenken und testen.
 	 */
 	public static void main(String[] args) {
-		int[] test = {3, 4, 5, 9, 12, 16, 56};
+		int[] test = {3, 4, 5, 9, 12, 16, 56, 64};
 		System.out.println("Beim Aufruf der Methode 'public static double durchschnitt(int[] array)' mit dem Parameter test sollte herauskommen:"
 				+ "\n 15"
 				+ "\n Bei dir kommt heraus:"

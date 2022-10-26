@@ -1,4 +1,4 @@
-// [ ] 6.2 Arrays lesen, schreiben und erzeugen;
+// [x] 6.2 Arrays lesen, schreiben und erzeugen;
 
 /*
  * In dieser Aufgabe geht es darum das erste mal mit Arrays zu arbeiten.
@@ -10,7 +10,7 @@ public class ArrayReadAndWrite {
 	// Elementen. Rueckgabewert soll die Summe der beiden Arrayelemente sein.
 	public static int addElementsOfArray(int[] numbers){
 		
-		return 0;	
+		return numbers[0] + numbers[1];	
 	}
 
 	// In dieser Methode soll ein Integer Array mit zwei Eintr�gen erzeugt werden.
@@ -18,7 +18,7 @@ public class ArrayReadAndWrite {
 	// (number ist dabei der Wert, der der Methode �bergeben wurde).
 	public static int[] neighbourNumbers(int number){
 
-		return null;
+		return new int[] {number-1, number+1};
 	}
 	
 	// Testausgabe. Hier koennt ihr eure Methoden testen.

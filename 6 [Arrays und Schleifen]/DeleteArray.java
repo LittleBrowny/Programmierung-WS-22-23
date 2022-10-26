@@ -1,4 +1,4 @@
-// [ ] 6.3 Arrays leeren
+// [x] 6.3 Arrays leeren
 
 import java.util.Arrays;
 
@@ -10,7 +10,9 @@ public class DeleteArray {
 	 */
 	public static void delete(int[] array)	{
 		//hier beginnt der zu bearbeitende Bereich
-		
+		for (int i = 0; i < array.length; i++) {
+			array[i] = 0;
+		}
 		//hier endet der zu bearbeitende Bereich
 	}
 	
